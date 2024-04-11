@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MHD To Do List</title>
+    <link rel="stylesheet" href="todolist2.css">
+  </head>
+  <element class="nanum-myeongjo-regular"></element>
+  <body>
+    <div class="all">
+      <div class="todo_container">
+        <h1 class="title">To Do List</h1>
+        <h1 class="writer">from.1303김찬</h1>
+        <form id="todo_form">
+            <input class="todo_input" type="text" style ="height: 50px;width: 300px;" id="todo_input" placeholder="무슨 계획이 있나요?">
+          <button class="submit" type="submit" style ="height: 56px;width: 50px;" id="submit">추가</button>
+        </form>
+        <ul id="todo_list"></ul>
+      </div>
+      <template id="todo_template">
+        <li class="todo_item">
+          <div class="info">
+            <input type="checkbox" class="item_checkbox">
+            <span class="item_title"></span>
+            <button class="edit" style ="height: 53pxs; width: 50px;">수정</button>
+            <button class="delete">삭제</button>
+          </div>
+          <button class="link"><label><a href="todolist (2).html" target="_blank">타 링크로 이동</a></label></button>
+        </li>
+      </template>
+    </div>
+      <script src="todolist2.js"></script>
+  </body>
+</html>
