@@ -1,0 +1,52 @@
+*{
+  text-align: center;
+  font-family: 'GmarketSansMedium',cursive;
+  list-style-type:none;
+}
+
+
+@font-face {
+
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1{
+  font-size: 50px;
+}
+
+.todo_input{
+  position: relative;
+  right: 10px;
+  left: 25px;
+  font-size: 30px;
+  bottom: 60px;
+}
+
+.submit{
+  position: relative;
+  left: 20px;
+  bottom: 63px;
+}
+
+.writer{
+  text-align: right;
+  position: relative;
+  bottom: 120px;
+  font-size: 20px;
+}
+
+.todo_item
+{
+  position: relative;
+  top: -50px;
+  margin: 10px auto;
+}
+
+.info
+{
+  font-size: 22px;
+}
+
