@@ -3,7 +3,7 @@ const todoForm  /*변수명*/ = document.getElementById('todo_form');
 const todoInput  /*변수명*/ = document.getElementById('todo_input');
 const todoList /*변수명*/ = document.getElementById('todo_list');
 const todoTemplate /*변수명*/ = document.getElementById('todo_template');
-const todoupdate = document.getElementById('update');
+const todoupdate /*변수명*/= document.getElementById('update');
 
 
 const handleFormSubmit = (event) => { //form 태그는 기본적으로 submit 이벤트에 form 태그 안의 다양한 양식의 데이터들을 다루고 필요한 action을 취한다음 다음 페이지를 갱신하는 특징이있음 그런 동작을 막기위한 이벤트 핸들러
