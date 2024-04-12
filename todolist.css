@@ -72,3 +72,13 @@ body
   background-attachment: fixed;
 }
 
+.edit
+{
+  background-color: skyblue;
+  color: white;
+  border: none;
+  
+  width: 70px;
+  height: 25px;
+  border-radius: 20px;
+}
