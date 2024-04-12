@@ -4,6 +4,11 @@
   list-style-type:none;
 }   
 
+.title{
+  position: relative;
+  top: 15px;
+}
+
 
 @font-face {
 
@@ -36,6 +41,7 @@ h1{
   position: relative;
   bottom: 170px;
   font-size: 20px;
+  left: -1.5px;
 }
 
 .todo_item
@@ -54,7 +60,7 @@ h1{
   
   position: relative;
   bottom: 90px;
-  right: -650px;
+  right: -590px;
   font-size: 20px;
   text-align: right;
 
