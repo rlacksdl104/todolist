@@ -2,7 +2,7 @@
   text-align: center;
   font-family: 'GmarketSansMedium',cursive;
   list-style-type:none;
-}
+}   
 
 
 @font-face {
@@ -22,31 +22,47 @@ h1{
   right: 10px;
   left: 25px;
   font-size: 30px;
-  bottom: 60px;
+  bottom: 100px;
 }
 
 .submit{
   position: relative;
   left: 20px;
-  bottom: 63px;
+  bottom: 103px;
 }
 
 .writer{
   text-align: right;
   position: relative;
-  bottom: 120px;
+  bottom: 170px;
   font-size: 20px;
 }
 
 .todo_item
 {
   position: relative;
-  top: -50px;
-  margin: 10px auto;
+  top: -100px;
+  margin: 10px auto; 
 }
 
 .info
 {
   font-size: 22px;
+}
+
+.link{
+  
+  position: relative;
+  bottom: 90px;
+  right: -650px;
+  font-size: 20px;
+  text-align: right;
+
+}
+
+body
+{
+  background-size: cover;
+  background-attachment: fixed;
 }
 
